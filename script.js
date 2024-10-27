@@ -98,3 +98,16 @@ function link(){
         })
 }
 link()
+
+//////////////////////////////////////////////////////////////////////////////////
+
+function hidden(){
+    let img = document.querySelectorAll("img.samsung, img.asus, img.not, img.red, img.HU")
+    let button = document.getElementById("hidden")
+    button.addEventListener("click", ()=>{
+        img.forEach(img =>{
+            img.classList.toggle("hidden")
+        })
+    })
+}
+hidden()
