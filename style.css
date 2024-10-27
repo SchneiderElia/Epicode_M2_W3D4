@@ -102,3 +102,47 @@ h4 {
     font-weight: 500;
     margin-bottom: 30px;
 }
+
+#comment {
+    display: flex;
+    margin-left: 60px;
+    gap: 10px;
+    margin-top: 70px;
+}
+
+input{
+    border-radius: 100px;
+    border-color: navajowhite;
+    height: 27px;
+    width: 200px;
+    padding-left:10px ;
+}
+
+button{
+    border-radius: 100px;
+    border-color: navajowhite;
+    height: 30px;
+    width: 90px;
+    background-color: navajowhite;
+    cursor: pointer;
+
+}
+
+footer{
+    display: flex;
+    gap: 30px;
+    margin-right: 30px;
+    margin-top: 35px;
+    justify-content: end;
+}
+
+h5 {
+    font-family: "Outfit";
+}
+
+.adress {
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size: 14px;
+    
+}
