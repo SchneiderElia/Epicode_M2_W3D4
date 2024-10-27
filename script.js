@@ -22,3 +22,23 @@
 // ESERCIZIO 12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata
 
 
+
+
+function changeTitle(){
+   let title = document.querySelector("h1")
+   let button = document.getElementById("title")
+   let originalTitle = title.innerText
+   button.addEventListener("click", () =>{
+        
+        //title.innerText = "Hello this is Digital Hub "
+
+        if(title.innerText === originalTitle){
+            title.innerText = "Hello this is Digital Hub"
+        }else{
+            title.innerText = originalTitle
+        }
+            
+        
+    })
+
+}changeTitle()
