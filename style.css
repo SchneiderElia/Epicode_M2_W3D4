@@ -106,6 +106,12 @@ p {
     margin-left: 10px;
     color: black;
 }
+.fa-solidPlus{
+    font-size: 25px;
+    margin-top: -1px;
+    margin-left: 10px;
+    color: magenta;
+}
 
 .amazon{
     width: 20%;

@@ -82,3 +82,19 @@ function ChangeAdress(){
 ChangeAdress()
 
 //////////////////////////////////////////////////////////////////////////////////
+
+function link(){
+    let icon = document.querySelectorAll(".fa-solid")
+    let button = document.getElementById("link")
+        button.addEventListener("click", ()=>{
+
+         icon.forEach(icon => {
+            if (!icon.classList.contains("fa-solidPlus")) { 
+                icon.classList.add("fa-solidPlus");
+              }else{
+                icon.classList.remove("fa-solidPlus");
+              }
+         })
+        })
+}
+link()
