@@ -6,9 +6,99 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 h1 {
     font-family: "Outfit";
+}
+
+#table {
+    display: flex;
+    margin-top: 90px;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.productBox {
+    display: flex;
+    width: 17%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.samsung{
+    width: 80%;
+}
+.asus{
+    width: 69%;
+}
+.not{
+    width: 85%;
+}
+.red{
+    width: 65%;
+}
+.HU{
+    width: 64%;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    
+}
+
+h3 {
+    font-family: "Outfit";
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+p {
+    font-family: "Outfit";
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+
+.price {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.go{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.fa-solid{
+    margin-top: 6px;
+    margin-left: 10px;
+    color: black;
+}
+
+.amazon{
+    width: 20%;
+    margin-left: -6px;
+}
+
+h4 {
+    font-family: "Outfit";
+    font-weight: 500;
+    margin-bottom: 30px;
 }
