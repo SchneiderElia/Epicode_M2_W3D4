@@ -111,3 +111,21 @@ function hidden(){
     })
 }
 hidden()
+
+//////////////////////////////////////////////////////////////////////////////////
+
+function priceColor(){
+    let price = document.querySelectorAll("h4")
+    let button = document.getElementById("color")
+    button.addEventListener("click", () =>{
+        price.forEach(price => {
+            let r = Math.floor(Math.random() * 256);
+            let g = Math.floor(Math.random() * 256);
+            let b = Math.floor(Math.random() * 256);
+            price.style.color = `rgb(${r}, ${g}, ${b})`;
+          });
+
+    })
+
+}
+priceColor()
