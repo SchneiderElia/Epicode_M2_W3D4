@@ -22,6 +22,9 @@
 // ESERCIZIO 12: Scrivi una funzione per cambiare il colore del prezzo di ogni prodotto in uno differente, ogni volta che viene invocata
 
 
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////
 
 
 function changeTitle(){
@@ -60,3 +63,22 @@ function changeBkColor(){
     })
 }
 changeBkColor()
+
+//////////////////////////////////////////////////////////////////////////////////
+
+function ChangeAdress(){
+    let address = document.querySelector(".address")
+    let originalAddress = address.innerText  
+    let button = document.getElementById("address")
+        button.addEventListener("click", ()=>{
+
+            if(address.innerText === originalAddress){
+                address.innerText = "Hello Word my new adress is more undefine"
+            }else{
+                address.innerText = originalAddress
+            }
+        })
+}
+ChangeAdress()
+
+//////////////////////////////////////////////////////////////////////////////////
