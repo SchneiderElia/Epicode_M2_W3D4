@@ -42,3 +42,21 @@ function changeTitle(){
     })
 
 }changeTitle()
+
+//////////////////////////////////////////////////////////////////////////////////
+
+function changeBkColor(){
+    let body = document.querySelector("body")
+    let button = document.getElementById("BkColor")
+    button.addEventListener("click", ()=>{
+        
+       // body.style.backgroundColor = "red"
+
+       if (body.style.backgroundColor === "navajowhite"){
+            body.style.backgroundColor = ""
+       }else{
+        body.style.backgroundColor = "navajowhite"
+       }
+    })
+}
+changeBkColor()
